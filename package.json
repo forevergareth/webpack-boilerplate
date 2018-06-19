@@ -1,0 +1,48 @@
+{
+  "name": "webpack-boilerplate",
+  "version": "1.0.0",
+  "description": "webpack boilerplate project for front-end project with dev-server",
+  "main": "public/js/build.js",
+  "scripts": {
+    "dev-server": "webpack-dev-server --mode development",
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "test": "jest tests/**/*.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/forevergareth/frontend-boilerplate-webpack.git"
+  },
+  "keywords": [
+    "webpack",
+    "frontend",
+    "nodejs"
+  ],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/forevergareth/frontend-boilerplate-webpack/issues"
+  },
+  "homepage": "https://github.com/forevergareth/frontend-boilerplate-webpack#readme",
+  "dependencies": {
+    "autoprefixer": "^8.6.2",
+    "babel-cli": "^6.26.0",
+    "babel-loader": "^7.1.4",
+    "babel-preset-env": "^1.7.0",
+    "clean-webpack-plugin": "^0.1.19",
+    "css-loader": "^0.28.11",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "mini-css-extract-plugin": "^0.4.0",
+    "node-sass": "^4.9.0",
+    "postcss-loader": "^2.1.5",
+    "sass-loader": "^7.0.3",
+    "style-loader": "^0.21.0",
+    "stylelint-webpack-plugin": "^0.10.5",
+    "webpack": "^4.12.0",
+    "webpack-cli": "^3.0.6",
+    "webpack-dev-server": "^3.1.4"
+  },
+  "devDependencies": {
+    "jest": "^23.1.0"
+  }
+}
