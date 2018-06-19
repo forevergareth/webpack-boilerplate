@@ -1,8 +1,3 @@
-const app = 'mine';
-import '../sass/index.sass'
+import '../sass/main.sass'
 
-class Fixer {
-  constructor() {
-    
-  }
-}
+const lot = "run"
