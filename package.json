@@ -4,9 +4,9 @@
   "description": "webpack boilerplate project for front-end project with dev-server",
   "main": "public/js/build.js",
   "scripts": {
-    "dev-server": "webpack-dev-server --mode development",
-    "dev": "webpack --mode development",
-    "build": "webpack --mode production",
+    "dev-server": "webpack-dev-server --config webpack.dev.js",
+    "dev": "webpack --config webpack.dev.js",
+    "prod": "webpack --config webpack.prod.js",
     "test": "jest tests/**/*.js"
   },
   "repository": {
@@ -42,6 +42,11 @@
     "webpack-dev-server": "^3.1.4"
   },
   "devDependencies": {
-    "jest": "^23.1.0"
+    "babel-core": "^6.26.3",
+    "file-loader": "^1.1.11",
+    "html-webpack-plugin": "^3.2.0",
+    "jest": "^23.1.0",
+    "uglifyjs-webpack-plugin": "^1.2.6",
+    "webpack-merge": "^4.1.3"
   }
 }
